@@ -1,0 +1,26 @@
+.textarea{
+    width: 21vw;
+}
+.star {
+    display: inline-block;
+}
+
+button {
+    display: block;
+}
+
+.input_review_title {
+    font-size: var(--font-large);
+    margin-left: 15vw;
+}
+
+.input_review_hr {
+    width: 60vw;
+    margin-bottom: 20px;
+    border-top: 2px solid #00A699;
+}
+
+.input_review_form {
+    margin: auto;
+    width: 27vw;
+}

@@ -1,0 +1,43 @@
+.review_list {
+    font-size: var(--font-large);
+    margin-left: 15vw;
+}
+
+.myReview-Row{
+    border-bottom: 2px solid #00A699;
+    padding: 2em;
+    width: 60vw;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin: auto;
+}
+
+.review_list_hr {
+    border-top: 2px solid #00A699;
+    margin-bottom:0;
+    width: 64vw;
+    margin: auto;
+}
+
+.myReview-photo img {
+    width: 13vw;
+    height: 10vw;
+    float: left;
+    border: 3px solid #FC642D;
+    
+}
+
+.myReview-title {
+    float:left;
+    font-size: var(--font-medium);
+    width: 35vw;
+    padding-left: 5vw;
+}
+
+.review-button {
+    float:right;
+    font-family: 'regular';
+    font-size: var(--font-small);
+}

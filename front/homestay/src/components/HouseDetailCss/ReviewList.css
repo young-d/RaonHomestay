@@ -1,0 +1,103 @@
+#reviewList{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+#star{
+    vertical-align: middle;
+}
+
+#scoreText{
+    font-weight: bold;
+}
+
+
+#reviewPoint{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.reviewPoint-box:nth-child(2n){
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewPoint-box:nth-child(2n+1){
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.star-point{
+    vertical-align: middle;
+    display: flex;
+}
+
+.star-point__text{
+    margin-right: 10px;
+}
+
+.star-title{
+    font-weight: bold;
+}
+.answer-btn{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+#reviewModal__box{
+    background-color: white;
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    z-index: 950;
+    overflow-y: scroll;
+    border-radius: 50px;
+    box-shadow: 3px 3px 4px 1px grey;
+    padding: 20px;
+}
+
+
+#reviewModal__box::-webkit-scrollbar { display: none; }
+
+.modal__review-box{
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal__review-box-relevel{
+  width: 45%;
+  margin-left: auto;
+  margin-right: 25%;
+}
+
+.modalReviewBox{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.host-writeday{
+    font-size: 0.7em;
+    margin-bottom: 50px;
+}
+
+#iframe1{
+    display: none;
+}
+
+.reanswer-box{
+    margin-right: 20px;
+    height: 20px;
+}

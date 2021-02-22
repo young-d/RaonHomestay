@@ -1,0 +1,96 @@
+#DetailInfo-Reservation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+
+
+#DetailInfo-MainBox{
+    width: 67%;
+}
+#HostId{
+    margin-bottom: 20px;
+}
+
+
+
+#Reservation-MainBox{
+    width: 27%;
+    height: 50%;
+    position: sticky;
+    top: 30%;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow:2px 2px 7px #353535;
+}
+
+#InfoIcon{
+    height: 500px;
+}
+
+#InfoIcon p span{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#HouseIntro_content{
+    margin-bottom: 80px;
+}
+
+#maxPeople{
+    font-size: 0.8em;
+}
+
+.info-title{
+    margin-bottom: 20px;
+}
+
+.info-text{
+    margin-bottom: 30px;
+}
+
+#introTitle{
+    margin-bottom: 40px;
+}
+
+.space{
+    margin-bottom: 50px;
+}
+
+.service-title{
+    margin-bottom: 40px;
+}
+
+
+.service-info{
+    margin-bottom: 20px;
+}
+
+#totalCostBox{
+    margin-top: 30px;
+}
+
+.cost-hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.totalcost-box{
+    margin-bottom: 20px;
+}
+
+
+.login-ok{
+    font-size: 1em;
+}
+
+.startDay-input{
+    cursor: pointer;
+}
+
+.endDay-input{
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+#house-list-container{
+    font-family: 'regular';
+}
+
+
+#buttons{
+    text-align: center;
+}
+
+#byBtn{
+    float: left;
+    margin-right: 1em;
+	background-color:#00A699;
+}
+#byBtn:hover {
+        background-color:#767676;
+		
+    }
+	
+#byBtn:active {
+        background-color:#00A699;
+		
+    }

@@ -1,0 +1,103 @@
+
+#mainTitle{
+    color:white;
+}
+  /*----------------
+  ---Main Content---
+  ----------------*/
+ .back-ground{
+     width: 100%;
+     margin:0%;
+ } 
+  .site-content{
+      margin: 100px auto;
+      width: 940px;
+      height: 200px;
+      font-family: 'regular';
+  }
+  
+  /*---title---*/
+      .title{
+          font-size: 30px;
+          font-weight: 100;
+          color: #484848;
+          margin-bottom: 60px;
+      }
+      .title span{
+          font-weight: 800;
+          color: #FF5A5F;
+      } */
+
+        .page-container, .page-container-responsive {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .page-container:before, .page-container-responsive:before, .page-container:after, .page-container-responsive:after {
+            content: " ";
+            display: table;
+        }
+        .page-container:after, .page-container-responsive:after {
+            clear: both;
+        }
+        .page-container:before, .page-container-responsive:before, .page-container:after, .page-container-responsive:after {
+            content: " ";
+            display: table;
+        }
+        .text-contrast {
+            color: #fff;
+        }
+        h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+            margin-top: 0;
+        }
+
+        .text-jumbo {
+            font-size: 60px;
+            font-weight: 700;
+        }
+
+        h3, .h3 {
+            font-size: 24px;
+            font-weight: normal;
+        }
+        .btn-primary {
+            border-color: #ff5a5f;
+            background-color: #ff5a5f;
+            color: #fff;
+        }
+        .btn-large {
+            padding: 9px 27px;
+            font-size: 16px;
+        }
+        .btn {
+          display: inline-block;
+          margin-bottom: 0;
+          border-radius: 4px;
+          text-align: center;
+          vertical-align: middle;
+          font-weight: bold;
+          line-height: 1.43;
+          user-select: none;
+          white-space: nowrap;
+          cursor: pointer;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+    
+        #raon-link {
+            color: #f4f5f5;
+            text-decoration: none;
+            font-family: 'regular';
+        }
+        #raon-link {
+            background: transparent;
+        }
+
+        
+      
+      
+       
+      
+  

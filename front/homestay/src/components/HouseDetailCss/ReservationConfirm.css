@@ -1,0 +1,51 @@
+#ReservationConfirm__mainBox{
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#ReservationConfirm__Box{
+    display: flex;
+}
+
+#reservationPerson{
+    width: 45%;
+}
+
+#reservationInfo{
+    width: 40%;
+}
+
+
+#reservationBtn{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+#iframe1{
+    display: none;
+}
+
+.reservationInfo-text{
+    margin-bottom: 30px;
+}
+
+.input-birth{
+    width: 80px;
+}
+.birth-text{
+    margin-right: 10px;
+}
+.react-datepicker__input-container input{
+    border: none;
+    font-size: 1.1rem;
+}
+.startDay-input{
+    border: none;
+    margin-left: 7%;
+}

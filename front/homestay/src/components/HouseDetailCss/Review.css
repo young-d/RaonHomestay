@@ -1,0 +1,75 @@
+.review-box{
+    width: 45%;
+    margin-bottom: 60px;
+    
+}
+
+.review-box:nth-child(2n){
+    margin-left: 10%;
+}
+
+.review-writer-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.profile-box{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+    background-color: #3d3d3d;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.profile-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+}
+
+.room-img{
+    width: 100px;
+    height: 100px;
+}
+.review-roomimg{
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+}
+.review-roomimg:hover{
+    transform: scale(3);
+    z-index: 2500;
+    position: absolute;
+    
+}
+#photoBox{
+    display: flex;
+}
+
+.review-text-box{
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.guest-writeday{
+    font-size: 0.7em;
+}
+
+.writer-writeday{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#photoModal__mainBox{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    position: absolute;
+
+}
